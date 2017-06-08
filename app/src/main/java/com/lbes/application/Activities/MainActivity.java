@@ -352,6 +352,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             // if this button is clicked, just close
                             // the dialog box and do nothing
                             dialog.cancel();
+                            ((MyApplication)getApplication()).setFragment(MainActivity.this, new SwipperFragment(), R.id.fragment_container);
                         }
                     });
             b.show();

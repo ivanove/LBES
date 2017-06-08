@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LBES.iml" filepath="$PROJECT_DIR$/LBES.iml" />
-      <module fileurl="file://$PROJECT_DIR$/agenda_library/agenda_library.iml" filepath="$PROJECT_DIR$/agenda_library/agenda_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

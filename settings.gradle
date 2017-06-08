@@ -1,0 +1,2 @@
+include ':app', ':agenda_library'
+project(':agenda_library').projectDir = new File('agenda_library')

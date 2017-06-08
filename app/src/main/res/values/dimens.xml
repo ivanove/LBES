@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="menu_width_res">450dp</dimen>
+    <dimen name="menu_width_res_phone">220dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <!-- PopDownMenu -->
+
+    <!-- PopUpMenu -->
+
+</resources>

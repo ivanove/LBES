@@ -1,0 +1,57 @@
+{
+    "application": {
+
+        "home_swipe": {
+
+        "parameters": {
+            "logo": "https://res.cloudinary.com/stylight/image/upload/t_p_res570sq/product-ddp-t-shirt-a-motif-devore-a-pois-1-122900318.jpg",
+            "button_title": "LBES",
+            "section_id": 344,
+            "logo_position": "bottom_left"
+        },
+        "elements": [
+            {
+                "id": 30,
+                "image": "https://res.cloudinary.com/stylight/image/upload/t_p_res570sq/product-hartford-veste-joshua-kaki-133583004.jpg",
+                "caption": ""
+            },
+            {
+
+                "id": 31,
+                "image": "https://res.cloudinary.com/stylight/image/upload/t_p_res570sq/product-tommy-hilfiger-mens-d2285aytona-2b-desert-boots-2-122917344.jpg",
+
+                "caption": ""
+            },
+            {
+                "id": 32,
+                "image": "https://res.cloudinary.com/stylight/image/upload/t_p_res570sq/product-nike-veste-tech-fleece-h-kaki-65227442.jpg",
+                "caption": ""
+            },
+            {
+                "id": 33,
+                "image": "https://res.cloudinary.com/stylight/image/upload/t_p_res570sq/product-levis-jeans-levi-s-501-tapered-fit-2-117428562.jpg",
+                "caption": ""
+            },
+            {
+                "id": 34,
+                "image": "https://res.cloudinary.com/stylight/image/upload/t_p_res570sq/product-caroll-t-shirt-lina-1-119182392.jpg",
+                "caption": ""
+            },
+            {
+                "id": 35,
+                "image": "https://res.cloudinary.com/stylight/image/upload/t_p_res570sq/product-lacoste-polo-slim-fit-lacoste-en-mini-pique-stretch-raye-bicolore-5-118345008.jpg",
+                "caption": ""
+            },
+            {
+                "id": 36,
+                "image": "https://res.cloudinary.com/stylight/image/upload/t_p_res570sq/product-boss-orange-by-hugo-boss-slim-fit-polo-shirt-in-stretchy-cotton-pay-1-117480144.jpg",
+                "caption": ""
+            }
+
+
+        ]
+
+    }
+    }
+
+}

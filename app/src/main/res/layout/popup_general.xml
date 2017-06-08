@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_margin="6dp"
+    android:background="@color/white">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="4dp"
+            android:clipToPadding="false"
+            android:layout_margin="6dp"
+            android:visibility="visible"
+            android:id="@+id/band_weather">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/soft_grey" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="4dp"
+                        android:padding="6dp"
+                        android:tint="@color/soft_grey"
+                        android:src="@drawable/icon_0_41"/>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:textColor="@color/soft_grey"
+                        android:textSize="16sp"
+
+                        android:layout_marginLeft="0dp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Météo :"/>
+
+                    <ImageView
+                        android:id="@+id/condIcon"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+
+                        android:layout_marginLeft="8dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/flag"
+                        />
+                    <ProgressBar
+                        android:id="@+id/progressWeather"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:indeterminate="true"
+
+                        android:indeterminateDrawable="@drawable/progress"/>
+                </LinearLayout>
+                <!---->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/soft_grey" />
+
+                <TextView
+                    android:id="@+id/temperature"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/soft_grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature :"
+                    />
+
+                <TextView
+                    android:id="@+id/degree_temp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingBottom="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/soft_grey"
+                    android:text=""/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="6dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:text="Les vêtements proposés "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/list_view_clothes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>
